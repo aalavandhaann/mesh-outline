@@ -208,8 +208,8 @@ function main() {
     let outline: LineSegments;
     let container = new Group();
     let mesh: Mesh = gltf.scene.children[0] as Mesh;
-    (mesh.material as MeshStandardMaterial).color.set(0x222222);
-    (mesh.material as MeshStandardMaterial).vertexColors = false;
+    // (mesh.material as MeshStandardMaterial).color.set(0x222222);
+    // (mesh.material as MeshStandardMaterial).vertexColors = false;
     (mesh.material as MeshStandardMaterial).polygonOffset = true;
     (mesh.material as MeshStandardMaterial).polygonOffsetFactor = 1;
 
